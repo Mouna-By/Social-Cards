@@ -1,0 +1,51 @@
+.link{
+    color: black;
+}
+
+.card{
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 350px;
+    box-shadow: 0 0 40px 4px #73a4a8;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.card :hover{
+    transform: scale(1.1);
+
+}
+.card_title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Nav{
+    padding: 2rem;
+    background-color:#73a4a8;  
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.button{
+    color: #73a4a8;
+}
+.profilecard{
+    margin: 5rem;
+}
+.postheader{
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+.postcard{
+    margin: 5rem;
+    padding: 1.5rem;
+    width: 350px;
+    box-shadow: 0 0 40px 4px #73a4a8;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
